@@ -7,7 +7,7 @@ This repository lists key datasets, codebases, and methodological references rel
 - Deep learning for EO time series  
 
 
----
+
 
 # Study Area
 
@@ -24,7 +24,7 @@ This repository lists key datasets, codebases, and methodological references rel
 - cross-modal transfer learning  
 - multi-event inventories (Wenchuan, Gorkha, Kaikōura, PNG)  
 
----
+
 
 ### 2. Landslide Area Modelling (GAM – Slope Unit Level)
 
@@ -37,7 +37,8 @@ This repository lists key datasets, codebases, and methodological references rel
 - Random + spatial cross-validation  
 - object-level descriptors (area evolution)  
 
----
+
+
 
 # Dataset
 
@@ -54,7 +55,6 @@ This repository lists key datasets, codebases, and methodological references rel
 - F1 evaluation  
 - multi-modal segmentation  
 
----
----
 
-*(Living document – updated as experiments evolve.)*
+
+*(Living document – updated as wego :) )*
