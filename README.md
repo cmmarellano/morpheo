@@ -13,8 +13,7 @@ This repository lists key datasets, codebases, and methodological references rel
 
 ## 🇳🇿 Kaikōura, New Zealand (2016 Earthquake)
 
-### 1. Landslide Mapping (Transfer Learning)
-
+### 1. Landslide Mapping 
 **Repo:**  https://github.com/kushanavbhuyan/Large-scale-multi-spatiotemporal-landslide-mapping  
 
 **Paper:**  https://www.nature.com/articles/s41598-022-27352-y  
@@ -26,7 +25,7 @@ This repository lists key datasets, codebases, and methodological references rel
 
 
 
-### 2. Landslide Area Modelling (GAM – Slope Unit Level)
+### 2. Landslide Area Modelling
 
 **Repo:**  https://github.com/mmorenoz/GAM_LandslideSize  
 
