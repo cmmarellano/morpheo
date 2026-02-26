@@ -32,7 +32,15 @@ This repository lists key datasets, codebases, and methodological references rel
 **Notes:**  
 - Models landslide area (not just occurrence)  
 - Random + spatial cross-validation  
-- object-level descriptors (area evolution)  
+- object-level descriptors (area evolution)
+
+## 🇳🇿 Leader dam landslide and dammed lake, New Zealand
+
+### Datasets
+- [NZLDD V1 Dam](https://osf.io/nw6mt/overview) -> Nez Zealand landslide dam database, polygons of dammed lakes (-2023)
+- [Landslide inventory](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2765/) -> V2.0 Landslide inventory for the Mw7.8 2016 Kaikōura Earthquake, NZ
+- [DEM](https://data.linz.govt.nz/layer/110632-canterbury-kaikoura-lidar-1m-dem-2016/) -> Cantenbury - Kaikōura LiDAR 1m DEM (2016)
+- 
 
 
 
