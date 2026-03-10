@@ -151,11 +151,11 @@ This repository lists key datasets, codebases, and methodological references rel
 
 ### Sen12Landslides
 
-[Sen12Landslides](https://huggingface.co/datasets/paulhoehn/Sen12Landslides) -> Large-scale multi-sensor benchmark for spatio-temporal landslide detection. 39,556 NetCDF patches (128×128 px, 10m resolution) across 15 time steps; Sentinel-1 (VV, VH, ascending/descending) and Sentinel-2 (B02–B12) with paired binary landslide masks, DEM, and rich metadata. Over 75,000 annotated landslide polygons. Includes task splits for supervised detection (S12LS-LD) and anomaly detection (S12LS-AD). [Paper](https://www.nature.com/articles/s41597-025-06167-2)
+- [Sen12Landslides](https://huggingface.co/datasets/paulhoehn/Sen12Landslides) -> Large-scale multi-sensor benchmark for spatio-temporal landslide detection. 39,556 NetCDF patches (128×128 px, 10m resolution) across 15 time steps; Sentinel-1 (VV, VH, ascending/descending) and Sentinel-2 (B02–B12) with paired binary landslide masks, DEM, and rich metadata. Over 75,000 annotated landslide polygons. Includes task splits for supervised detection (S12LS-LD) and anomaly detection (S12LS-AD). [Paper](https://www.nature.com/articles/s41597-025-06167-2)
 
 ### Landslide4Sense 2022
 
-[Landslide4Sense-2022](https://github.com/iarai/Landslide4Sense-2022) -> Multi-modal landslide segmentation benchmark; 14-band input (Sentinel-2 + slope + DEM), pixel-wise labels, U-Net baseline (PyTorch), F1 evaluation. Ghorbanzadeh et al. (2022), IEEE JSTARS.
+- [Landslide4Sense-2022](https://github.com/iarai/Landslide4Sense-2022) -> Multi-modal landslide segmentation benchmark; 14-band input (Sentinel-2 + slope + DEM), pixel-wise labels, U-Net baseline (PyTorch), F1 evaluation. Ghorbanzadeh et al. (2022), IEEE JSTARS.
 
 ### The Earth Observation Database (Training datasets for DL)
 
@@ -167,55 +167,55 @@ This repository lists key datasets, codebases, and methodological references rel
 
 ### Segmentation — Landslides
 
-[landslide-sar-unet](https://github.com/ESA-PhiLab/landslide-sar-unet) -> Deep learning for rapid landslide detection using SAR datacubes
+- [landslide-sar-unet](https://github.com/ESA-PhiLab/landslide-sar-unet) -> Deep learning for rapid landslide detection using SAR datacubes
 
-[landslide-mapping-with-cnn](https://github.com/npuchenbowen/landslide-mapping-with-cnn) -> Generalised CNN strategy for landslide mapping across regions
+- [landslide-mapping-with-cnn](https://github.com/npuchenbowen/landslide-mapping-with-cnn) -> Generalised CNN strategy for landslide mapping across regions
 
-[Landslide-mapping-on-SAR-data-by-Attention-U-Net](https://github.com/iprapas/landslide-sar-unet) -> Rapid mapping of landslides on SAR data using Attention U-Net
+- [Landslide-mapping-on-SAR-data-by-Attention-U-Net](https://github.com/iprapas/landslide-sar-unet) -> Rapid mapping of landslides on SAR data using Attention U-Net
 
-[SAR-landslide-detection-pretraining](https://github.com/links-ads/sar-multi-temporal-landslide-detection) -> SAR-based landslide classification pretraining improves segmentation performance
+- [SAR-landslide-detection-pretraining](https://github.com/links-ads/sar-multi-temporal-landslide-detection) -> SAR-based landslide classification pretraining improves segmentation performance
 
-[Erosion-detection](https://github.com/sentinel-hub/eo-learn) -> Using Sentinel-2 to detect erosion patterns over time
+- [Erosion-detection](https://github.com/sentinel-hub/eo-learn) -> Using Sentinel-2 to detect erosion patterns over time
 
 ### Change Detection
 
-[STANet](https://github.com/justchenhao/STANet) -> Spatio-temporal attention network for remote sensing image change detection
+- [STANet](https://github.com/justchenhao/STANet) -> Spatio-temporal attention network for remote sensing image change detection
 
-[ChangeFormer](https://github.com/wgcban/ChangeFormer) -> Transformer-based Siamese network for change detection; captures fine-grained multi-scale details. [Paper](https://arxiv.org/abs/2201.01293)
+- [ChangeFormer](https://github.com/wgcban/ChangeFormer) -> Transformer-based Siamese network for change detection; captures fine-grained multi-scale details. [Paper](https://arxiv.org/abs/2201.01293)
 
-[Landslide mapping from Sentinel-2 imagery through change detection](https://github.com/links-ads/sar-multi-temporal-landslide-detection) -> Bitemporal change detection approach for landslide mapping
+- [Landslide mapping from Sentinel-2 imagery through change detection](https://github.com/links-ads/sar-multi-temporal-landslide-detection) -> Bitemporal change detection approach for landslide mapping
 
-[forest_change_detection](https://github.com/QuantuMobileSoftware/forest_change_detection) -> Forest change segmentation with time-dependent models including Siamese, UNet-LSTM, UNet-diff, UNet3D
+- [forest_change_detection](https://github.com/QuantuMobileSoftware/forest_change_detection) -> Forest change segmentation with time-dependent models including Siamese, UNet-LSTM, UNet-diff, UNet3D
 
 ### Time Series
 
-[utae-paps](https://github.com/VSainteuf/utae-paps) -> U-TAE and PaPs for satellite image time series panoptic segmentation; directly relevant to object-level tracking in SITS
+- [utae-paps](https://github.com/VSainteuf/utae-paps) -> U-TAE and PaPs for satellite image time series panoptic segmentation; directly relevant to object-level tracking in SITS
 
-[pytorch-psetae](https://github.com/VSainteuf/pytorch-psetae) -> Pixel-Set Encoders and Temporal Self-Attention for satellite image time series classification
+- [pytorch-psetae](https://github.com/VSainteuf/pytorch-psetae) -> Pixel-Set Encoders and Temporal Self-Attention for satellite image time series classification
 
-[SITS-Former](https://github.com/linlei1214/SITS-Former) -> Pre-trained spatio-spectral-temporal representation model for Sentinel-2 time series classification
+- [SITS-Former](https://github.com/linlei1214/SITS-Former) -> Pre-trained spatio-spectral-temporal representation model for Sentinel-2 time series classification
 
-[temporal-cluster-matching](https://github.com/microsoft/temporal-cluster-matching) -> Detecting change in structure footprints from time series of remotely sensed imagery
+- [temporal-cluster-matching](https://github.com/microsoft/temporal-cluster-matching) -> Detecting change in structure footprints from time series of remotely sensed imagery
 
 ### Foundational Models
 
-[TerraTorch](https://github.com/IBM/terratorch) -> Python toolkit for fine-tuning geospatial foundation models (incl. Prithvi-EO-2.0) based on PyTorch Lightning and TorchGeo
+- [TerraTorch](https://github.com/IBM/terratorch) -> Python toolkit for fine-tuning geospatial foundation models (incl. Prithvi-EO-2.0) based on PyTorch Lightning and TorchGeo
 
-[Prithvi-EO-2.0](https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-300M) -> IBM–NASA Earth observation foundation model pre-trained on HLS (Harmonized Landsat Sentinel-2) time series; 300M parameter version available for fine-tuning
+- [Prithvi-EO-2.0](https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-300M) -> IBM–NASA Earth observation foundation model pre-trained on HLS (Harmonized Landsat Sentinel-2) time series; 300M parameter version available for fine-tuning
 
-[Prithvi-CAFE](https://github.com/ClarkCGA/multi-temporal-crop-classification-baseline) -> Transformer-based global reasoning (Prithvi-EO-2.0) with CNN-based local spatial sensitivity for multi-sensor inputs; applied to flood inundation mapping
+- [Prithvi-CAFE](https://github.com/ClarkCGA/multi-temporal-crop-classification-baseline) -> Transformer-based global reasoning (Prithvi-EO-2.0) with CNN-based local spatial sensitivity for multi-sensor inputs; applied to flood inundation mapping
 
-[TorchGeo](https://github.com/microsoft/torchgeo) -> PyTorch library for geospatial data with pre-trained models and remote sensing datasets; supports Sentinel-1/2, Landsat, and DEM inputs
+- [TorchGeo](https://github.com/microsoft/torchgeo) -> PyTorch library for geospatial data with pre-trained models and remote sensing datasets; supports Sentinel-1/2, Landsat, and DEM inputs
 
-[geo-bench](https://github.com/ServiceNow/geo-bench) -> General Earth Observation benchmark for evaluating large pre-trained models on geospatial data
+- [geo-bench](https://github.com/ServiceNow/geo-bench) -> General Earth Observation benchmark for evaluating large pre-trained models on geospatial data
 
 ### Data Access & Cubing
 
-[terragon](https://github.com/drnhhl/terragon) -> Streamlined EO data downloading from multiple APIs (Planetary Computer, GEE, CDSE, ASF) using a single polygon-based interface; used to build Sen12Landslides. `pip install terragon-downloader`
+- [terragon](https://github.com/drnhhl/terragon) -> Streamlined EO data downloading from multiple APIs (Planetary Computer, GEE, CDSE, ASF) using a single polygon-based interface; used to build Sen12Landslides. `pip install terragon-downloader`
 
-[odc-stac](https://github.com/opendatacube/odc-stac) -> Load STAC items into xarray datasets with efficient tiling; core tool for MorphEO data cube workflows
+- [odc-stac](https://github.com/opendatacube/odc-stac) -> Load STAC items into xarray datasets with efficient tiling; core tool for MorphEO data cube workflows
 
-[stackstac](https://github.com/gjoseph92/stackstac) -> Turn STAC metadata + rasters into an xarray DataArray with lazy Dask loading; Sentinel-2 ready
+- [stackstac](https://github.com/gjoseph92/stackstac) -> Turn STAC metadata + rasters into an xarray DataArray with lazy Dask loading; Sentinel-2 ready
 
 ---
 
