@@ -157,6 +157,10 @@ This repository lists key datasets, codebases, and methodological references rel
 
 [Landslide4Sense-2022](https://github.com/iarai/Landslide4Sense-2022) -> Multi-modal landslide segmentation benchmark; 14-band input (Sentinel-2 + slope + DEM), pixel-wise labels, U-Net baseline (PyTorch), F1 evaluation. Ghorbanzadeh et al. (2022), IEEE JSTARS.
 
+### The Earth Observation Database (Training datasets for DL)
+
+[IEEE GRSS Earth Observation Database (EOD)](https://eod-grss-ieee.com/dataset-search) -> An interactive online platform for cataloguing different types of datasets leveraging remote sensing imagery. [Schmitt et al 2022](https://ieeexplore.ieee.org/abstract/document/9884725)
+
 ---
 
 ## Methods & Tools
